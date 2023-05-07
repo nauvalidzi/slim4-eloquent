@@ -8,16 +8,16 @@ ini_set('display_errors', '1');
 
 // Settings
 $settings = [
-    'determineRouteBeforeAppMiddleware' => false,
+    'determineRouteBeforeAppMiddleware' => true,
     'displayErrorDetails' => true,
 ];
 
 $settings['db'] = [
     'driver' => 'mysql',
     'host' => 'localhost',
-    'database' => 'express',
+    'database' => 'todolist',
     'username' => 'root',
-    'password' => '',
+    'password' => 'root',
     'charset' => 'utf8mb4',
     'collation' => 'utf8mb4_unicode_ci',
     'prefix' => ''
